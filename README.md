@@ -11,6 +11,9 @@ MFC-대화상자기반 구조
  
 modeless 버튼에 기능을 부여하는 코드입니다.
 
+![스크린샷 2023-09-21 111354](https://github.com/wintermoca/modelessDlg/assets/102385398/c0d428d6-1eaf-4659-8f15-461bd15b6349)
+
+
 AddClass* p = new AddClass();: 
 AddClass 클래스의 객체 포인터 p를 동적으로 생성합니다. 이 객체는 새로운 다이얼로그를 나타내기 위해 사용됩니다.
 
@@ -24,6 +27,8 @@ ShowWindow 함수를 호출하여 생성한 다이얼로그를 화면에 표시�
 
 
 Add 버튼에 기능을 부여하는 코드입니다.
+
+![스크린샷 2023-09-21 111408](https://github.com/wintermoca/modelessDlg/assets/102385398/15f80510-b545-4974-ac9a-2ca0d59439d6)
 
 CFCDlg* p = (CFCDlg*)GetParent();:
  현재 다이얼로그(Dialog) 상에서 부모 다이얼로그인 CFCDlg 클래스의 포인터인 p를 가져옵니다.
